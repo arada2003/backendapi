@@ -3,10 +3,12 @@ import "../bootstrap.min.css";
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import NavbarRegis from "../component/navbarRegis";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const HomeRegis = () => {
   return (
-    
+
     <div>
 
 
@@ -33,7 +35,7 @@ const HomeRegis = () => {
         <link href="css/style.css" rel="stylesheet" />
       </Helmet>
 
-<NavbarRegis />
+      <NavbarRegis />
       <div class="container-fluid featurs py-5">
         <div class="container py-5">
           <div class="row g-4 rounded bg-light p-4">
@@ -49,7 +51,7 @@ const HomeRegis = () => {
 
       <div className="container-fluid service py-5">
         <div className="container py-5">
-        <h1 class="mb-2">Gym ชั้นนำ</h1>
+          <h1 class="mb-2">Gym ชั้นนำ</h1>
 
           <div className="row g-4 justify-content-center">
             <div className="col-md-6 col-lg-4">
@@ -57,9 +59,13 @@ const HomeRegis = () => {
                 <div className="service-item bg-secondary rounded border border-secondary">
                   <img src="img/L.jpg" className="img-fluid rounded-top w-100" alt="" />
                   <div className="px-4 rounded-bottom">
-                    <div className="service-content bg-primary text-center p-4 rounded">
-                      <h5 className="text-white">Fresh Apples</h5>
-                      <h3 className="mb-0">20% OFF</h3>
+                    <div className="service-content bg-primary text-center p-3 rounded">
+                      <h5 className="text-white">FitZone Gym</h5>
+                      <h6 className="mb-0">123 Sukhumvit Road, Bangkok</h6>
+                      <div className="d-flex justify-content-center align-items-center mt-2">
+                        <FontAwesomeIcon icon={faPhone} className="mb-0 text-white" style={{ marginRight: '8px' }} />
+                        <h6 className="mb-0 text-white">098-123-4567</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -71,8 +77,12 @@ const HomeRegis = () => {
                   <img src="img/L.jpg" className="img-fluid rounded-top w-100" alt="" />
                   <div className="px-4 rounded-bottom">
                     <div className="service-content bg-light text-center p-4 rounded">
-                      <h5 className="text-primary">Tasty Fruits</h5>
-                      <h3 className="mb-0">Free delivery</h3>
+                      <h5 className="text-primary">Elite Boxing Club</h5>
+                      <h6 className="mb-0">45 Silom Road, Bangkok</h6>
+                      <div className="d-flex justify-content-center align-items-center mt-2">
+                        <FontAwesomeIcon icon={faPhone} className="mb-0 text-primary" style={{ marginRight: '8px' }} />
+                        <h6 className="mb-0 text-primary">089-987-6543</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -83,9 +93,13 @@ const HomeRegis = () => {
                 <div className="service-item bg-primary rounded border border-primary">
                   <img src="img/L.jpg" className="img-fluid rounded-top w-100" alt="" />
                   <div className="px-4 rounded-bottom">
-                    <div className="service-content bg-secondary text-center p-4 rounded">
-                      <h5 className="text-white">Exotic Vegitable</h5>
-                      <h3 className="mb-0">Discount 30$</h3>
+                    <div className="service-content bg-secondary text-center p-3 rounded">
+                      <h5 className="text-white">Flex Yoga Studio</h5>
+                      <h6 className="mb-0">99 Rama IV Road, Bangkok</h6>
+                      <div className="d-flex justify-content-center align-items-center mt-2">
+                        <FontAwesomeIcon icon={faPhone} className="mb-0 text-white" style={{ marginRight: '8px' }} />
+                        <h6 className="mb-0 text-white">092-345-6789</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -103,9 +117,13 @@ const HomeRegis = () => {
                 <div className="service-item bg-secondary rounded border border-secondary">
                   <img src="img/L.jpg" className="img-fluid rounded-top w-100" alt="" />
                   <div className="px-4 rounded-bottom">
-                    <div className="service-content bg-primary text-center p-4 rounded">
-                      <h5 className="text-white">Fresh Apples</h5>
-                      <h3 className="mb-0">20% OFF</h3>
+                    <div className="service-content bg-primary text-center p-3 rounded">
+                      <h5 className="text-white">AquaFit Center</h5>
+                      <h6 className="mb-0">777 Charoenkrung Road, Bangkok</h6>
+                      <div className="d-flex justify-content-center align-items-center mt-2">
+                        <FontAwesomeIcon icon={faPhone} className="mb-0 text-white" style={{ marginRight: '8px' }} />
+                        <h6 className="mb-0 text-white">096-789-4321</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -116,15 +134,19 @@ const HomeRegis = () => {
                 <div className="service-item bg-dark rounded border border-dark">
                   <img src="img/L.jpg" className="img-fluid rounded-top w-100" alt="" />
                   <div className="px-4 rounded-bottom">
-                    <div className="service-content bg-light text-center p-4 rounded">
-                      <h5 className="text-primary">Tasty Fruits</h5>
-                      <h3 className="mb-0">Free delivery</h3>
+                    <div className="service-content bg-light text-center p-3 rounded">
+                      <h5 className="text-primary">Groove Dance Studio</h5>
+                      <h6 className="mb-0">55 Sukhumvit Soi 11, Bangkok</h6>
+                      <div className="d-flex justify-content-center align-items-center mt-2">
+                        <FontAwesomeIcon icon={faPhone} className="mb-0 text-primary" style={{ marginRight: '8px' }} />
+                        <h6 className="mb-0 text-primary">097-222-3456</h6>
+                      </div>
                     </div>
                   </div>
                 </div>
               </a>
             </div>
-          
+
           </div>
         </div>
       </div>

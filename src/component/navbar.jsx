@@ -31,7 +31,7 @@ const Navbar = () => {
 
             {/* Navbar */}
             <div className="container px-0">
-                <nav className="navbar navbar-light bg-white navbar-expand-xl">
+                <nav className="navbar navbar-light bg-white navbar-expand-xl ">
                     <Link to="/" className="navbar-brand">
                         <h1 className="text-primary display-6">GymService</h1>
                     </Link>

@@ -7,6 +7,10 @@ import Detail from './pages/detail';
 import Gym1 from "./pages/gym1";
 import User from './pages/user';
 import HomeRegis from './pages/HomeRegis';
+import ClassInfo from './pages/class_info';
+import Profile from './pages/profileAffiliator';
+
+
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
         <Route path="/detail" element={<Detail />} />
         <Route path="/gym1" element={<Gym1 />} />
         <Route path="/user" element={<User />} />
+        <Route path="/class_info" element={<ClassInfo />} />
+        <Route path="/Affiliator" element={<Profile />} />
+
+
 
 
       </Routes>
